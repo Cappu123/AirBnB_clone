@@ -43,8 +43,24 @@ Do you remember the Shell? It’s exactly the same but limited to a specific use
 <li>
 <a href="https://docs.python.org/3.8/library/datetime.html">datetime</a></li>
 <li>
-<a href="https://docs.python.org/3.8/library/unittest.html#module-unittest">unittest module></a></li
-<li><a href="https://yasoob.me/2013/08/04/args-and-kwargs-in-python-explained/"</a></li>
-<li>[Python test cheatsheet](https://www.pythonsheets.com/notes/python-tests.html)</li>
-<li>[cmd module wiki page](https://wiki.python.org/moin/CmdModule)</li>
-<li>[python unittest](https://realpython.com/python-testing/)</li>
+<a href="https://docs.python.org/3.8/library/unittest.html#module-unittest">unittest module</a></li>
+<li><a href="https://yasoob.me/2013/08/04/args-and-kwargs-in-python-explained/">args/kwargs</a></li>
+<li><a href="https://www.pythonsheets.com/notes/python-tests.html">args/kwargs</a></li>
+<li><a href="https://wiki.python.org/moin/CmdModule">cmd module wiki page</a></li>
+<li><a href="htps://realpython.com/python-testing/">python unittest</a></li>
+</ul>
+# Learning Objectives
+At the end of this project, you are expected to be able to <a href="https://fs.blog/feynman-learning-technique/">explain to anyone</a> <strong>without the help of Google:</strong>
+
+## General
+<ul>
+<li>How to create a Python package</li>
+<li>How to create a command interpreter in Python using the <code>cmd</code> module</li>
+<li>What is Unit testing and how to implement it in a large project</li>
+<li>How to serialize and deserialize a Class</li>
+<li>How to write and read a JSON file</li>
+<li>How to manage <code>datetime</code></li>
+<li>What is an UUID</li>
+<li>What is <code>\*args</code> and how to use it</li>
+<li>What is <code>\*\*kwargs</code> and how to use it</li>
+<li>How to handle named arguments in a function</li>
