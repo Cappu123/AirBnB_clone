@@ -133,7 +133,42 @@ All tests should also pass in non-interactive mode: <code>$ echo "python3 -m uni
 <a href="https://ibb.co/NTCs6Gm"><img src="https://i.ibb.co/kmBxgP9/webweb.png" alt="webweb" border="0"></a>
 
 <h2>Tasks</h2>
-<ul>
-<li type=1>
-<a href="https://github.com/Cappu123/alx-higher_level_programming/blob/master/0x05-python-exceptions/2-safe_print_list_integers.py">Be pycodestyle compliant!</a></li>
+<ol>
+<li>Be pycodestyle compliant!</li>
 Write beautiful code that passes the pycodestyle checks.
+<li>Unittests</li>
+All your files, classes, functions must be tested with unit tests
+<li>BaseModel</li>
+<li>Create BaseModel from dictionary</li>
+<li>Store first object</li>
+<li>Console 0.0.1</li>
+Write a program called console.py that contains the entry point of the command interpreter
+<li>Console 0.1</li>
+Update your command interpreter (console.py) to have these commands:
+<ul>
+<li><code>create</code>Creates a new instance of BaseModel, saves it (to the JSON file) and prints the <code>id</code></li>
+<li><code>show</code>Prints the string representation of an instance based on the class name and <code>id</code></li>
+<li><code>destroy</code>: Deletes an instance based on the class name and id (save the change into the JSON file).</li>
+<li><code>all</code>Prints all string representation of all instances based or not on the class name.</li>
+<li><code>update</code>: Updates an instance based on the class name and id by adding or updating attribute (save the change into the JSON file).</li>
+</ul>
+<li>First User</li>
+Write a class User that inherits from <code>BaseModel</code>
+Update <code>FileStorage</code> to manage correctly serialization and deserialization of <code>User</code></li>
+Update your command interpreter (<code>console.py</code>) to allow <code>show</code>, <code>create</code>, <code>destroy</code>, <code>update</code> and <code>all</code> used with <code>User</code>.
+<li>More classes!</li>
+Write all those classes that inherit from <code>BaseModel</code>:
+<ul>
+<li>State<code></code>(<code>models/state.py</code>)</li>
+<li>City<code></code>(<code>models/city.py</code>)</li>
+<li>Amenity<code></code>(<code>models/amenity.py</code>)</li>
+<li>Place<code></code>(<code>models/place.py</code>)</li>
+<li>Review<code></code>(<code>models/review.py</code>)</li>
+</ul>
+<li>Console1.0</li>
+Update FileStorage to manage correctly serialization and deserialization of all our new classes: <code>Place</code>, <code>State</code>, <code>City</code>, <code>Amenity</code> and <code>Review</code>
+Update your command interpreter (console.py) to allow those actions: <code>show</code>, <code>create</code>, <code>destroy</code>, <code>update</code> and <code>all</code> with all classes created previously.
+
+Enjoy your first console!
+
+<strong><em>No unittests needed for the console</em></strong>
