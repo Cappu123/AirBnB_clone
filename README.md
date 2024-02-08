@@ -133,4 +133,7 @@ All tests should also pass in non-interactive mode: <code>$ echo "python3 -m uni
 <a href="https://ibb.co/NTCs6Gm"><img src="https://i.ibb.co/kmBxgP9/webweb.png" alt="webweb" border="0"></a>
 
 <h2>Tasks</h2>
-[1. Be pycodestyle compliant!](https://github.com/Cappu123/alx-higher_level_programming/blob/master/0x05-python-exceptions/2-safe_print_list_integers.py)
+<ul>
+<li type=1>
+<a href="https://github.com/Cappu123/alx-higher_level_programming/blob/master/0x05-python-exceptions/2-safe_print_list_integers.py">Be pycodestyle compliant!</a></li>
+Write beautiful code that passes the pycodestyle checks.
