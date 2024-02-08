@@ -18,25 +18,27 @@ This is the first step towards building your first full web application: the Air
 Each task is linked and will help you to:
 	* put in place a parent class (called <code>BaseModel</code>)to take care of the initialization, serialization and deserialization of your future instances
 	* create a simple flow of serialization/deserialization: Instance <-> Dictionary <-> JSON string <-> file
-	* create all classes used for AirBnB ( <code>User</code>, <code>State</coode>, <code>City</code>, <code>Place</code> ...)that inherit from <code>BaseModel</code>
+	* create all classes used for AirBnB ( <code>User</code>, <code>State</code>, <code>City</code>, <code>Place</code> ...)that inherit from <code>BaseModel</code>
 	* create the first abstracted storage engine of the project: File storage.
 	* create all unittests to validate all our classes and storage engine
 ## What’s a command interpreter?
-Do you remember the Shell? It’s exactly the same but limited to a specific use-case. In our case, we want to be able to manage the objects of our project:
-	* Create a new object (ex: a new User or a new Place)
-	* Retrieve an object from a file, a database etc…
-	* Do operations on objects (count, compute stats, etc…)
-	* Update attributes of an object
-	* Destroy an object
+Do you remember the Shell? It’s exactly the same but limited to a specific use-case. In our case, we want to be able to manage the objects of our project:<ul>
+<li>Create a new object (ex: a new User or a new Place)</li>
+<li>Retrieve an object from a file, a database etc…</li>
+<li>Do operations on objects (count, compute stats, etc…)</li>
+<li>Update attributes of an object</li>
+<li>Destroy an object</li>
+</ul>
 # Resources
 <strong>Read or watch:</strong>
-	* [cmd module](https://docs.python.org/3.8/library/cmd.html)
-	* [cmd module in depth] (http://pymotw.com/2/cmd/)
-	* packages concept page
-	* [uuid module](https://docs.python.org/3.8/library/uuid.html)
-	* [datetime](https://docs.python.org/3.8/library/datetime.html)
-	* [unittest module](https://docs.python.org/3.8/library/unittest.html#module-unittest)
-	* [args/kwargs](https://yasoob.me/2013/08/04/args-and-kwargs-in-python-explained/)
-	* [Python test cheatsheet](https://www.pythonsheets.com/notes/python-tests.html)
-	* [cmd module wiki page](https://wiki.python.org/moin/CmdModule)
-	* [python unittest](
+<ul>
+<li>[cmd module](https://docs.python.org/3.8/library/cmd.html)</li>
+<li>[cmd module in depth] (http://pymotw.com/2/cmd/)</li>
+<li>packages concept page</li>
+<li>[uuid module](https://docs.python.org/3.8/library/uuid.html)</li>
+<li>[datetime](https://docs.python.org/3.8/library/datetime.html)</li>
+<li>[unittest module](https://docs.python.org/3.8/library/unittest.html#module-unittest)</li>
+<li>[args/kwargs](https://yasoob.me/2013/08/04/args-and-kwargs-in-python-explained/)</li>
+<li>[Python test cheatsheet](https://www.pythonsheets.com/notes/python-tests.html)</li>
+<li>[cmd module wiki page](https://wiki.python.org/moin/CmdModule)</li>
+<li>[python unittest](https://realpython.com/python-testing/)</li>
