@@ -32,7 +32,9 @@ Do you remember the Shell? It’s exactly the same but limited to a specific use
 # Resources
 <strong>Read or watch:</strong>
 <ul>
-<li>[cmd module](https://docs.python.org/3.8/library/cmd.html)</li>
+<li>
+<a href="https://docs.python.org/3.8/library/cmd.html">cmd module</a>
+</li>
 <li>[cmd module in depth] (http://pymotw.com/2/cmd/)</li>
 <li>packages concept page</li>
 <li>[uuid module](https://docs.python.org/3.8/library/uuid.html)</li>
