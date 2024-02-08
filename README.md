@@ -7,7 +7,7 @@ By: Guillaume
 For this project, we expect you to look at these concepts
 	* [Python packages] (https://intranet.alxswe.com/concepts/66)
 	* [AirBnB clone] (https://intranet.alxswe.com/concepts/74)
-![hbnb](https://ibb.co/zP5rmv1)
+![hbnb]([url=https://ibb.co/zP5rmv1][img]https://i.ibb.co/L9P807M/hbnb.png[/img][/url])
 
 # Background Context
 ## Welcome to the AirBnB clone project!
