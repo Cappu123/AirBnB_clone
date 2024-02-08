@@ -89,6 +89,7 @@ At the end of this project, you are expected to be able to <a href="https://fs.b
 
 <h2>Execution</h2>
 The shell should work like this in interactive mode:
+
 ```
 $ ./console.py
 (hbnb) help
@@ -104,6 +105,7 @@ $
 ```
 
 But also in non-interactive mode like this:
+
 ```
 $ echo "help" | ./console.py
 (hbnb)
