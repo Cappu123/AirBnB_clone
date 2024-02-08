@@ -6,8 +6,9 @@ By: Guillaume
 
 For this project, we expect you to look at these concepts
 <ul><li><a href="https://intranet.alxswe.com/concepts/66">Python packages</a></li>
-<li><a href="https://intranet.alxswe.com/concepts/74">AirBnB</a></li>
+<li><a href="https://intranet.alxswe.com/concepts/74">AirBnB clone</a></li>
 </ul>
+<a href="https://ibb.co/zP5rmv1"><img src="https://i.ibb.co/L9P807M/hbnb.png" alt="hbnb" border="0"></a>
 <h1>Background Context</h1>
 
 Before starting, please read the <strong>AirBnB</strong> concept page.<br>
