@@ -133,7 +133,7 @@ All tests should also pass in non-interactive mode: <code>$ echo "python3 -m uni
 <a href="https://ibb.co/NTCs6Gm"><img src="https://i.ibb.co/kmBxgP9/webweb.png" alt="webweb" border="0"></a>
 
 <h2>Tasks</h2>
-<ol>
+<ol type=1>
 <li>Be pycodestyle compliant!</li>
 Write beautiful code that passes the pycodestyle checks.
 <li>Unittests</li>
@@ -159,16 +159,16 @@ Update your command interpreter (<code>console.py</code>) to allow <code>show</c
 <li>More classes!</li>
 Write all those classes that inherit from <code>BaseModel</code>:
 <ul>
-<li>State<code></code>(<code>models/state.py</code>)</li>
-<li>City<code></code>(<code>models/city.py</code>)</li>
-<li>Amenity<code></code>(<code>models/amenity.py</code>)</li>
-<li>Place<code></code>(<code>models/place.py</code>)</li>
-<li>Review<code></code>(<code>models/review.py</code>)</li>
+<li><code>State</code>(<code>models/state.py</code>)</li>
+<li><code>City</code>(<code>models/city.py</code>)</li>
+<li><code>Amenity</code>(<code>models/amenity.py</code>)</li>
+<li><code>Place</code>(<code>models/place.py</code>)</li>
+<li><code>Review</code>(<code>models/review.py</code>)</li>
 </ul>
 <li>Console1.0</li>
 Update FileStorage to manage correctly serialization and deserialization of all our new classes: <code>Place</code>, <code>State</code>, <code>City</code>, <code>Amenity</code> and <code>Review</code>
 Update your command interpreter (console.py) to allow those actions: <code>show</code>, <code>create</code>, <code>destroy</code>, <code>update</code> and <code>all</code> with all classes created previously.
-
+</ol>
 Enjoy your first console!
 
 <strong><em>No unittests needed for the console</em></strong>
