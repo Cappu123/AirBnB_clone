@@ -35,12 +35,16 @@ Do you remember the Shell? It’s exactly the same but limited to a specific use
 <li>
 <a href="https://docs.python.org/3.8/library/cmd.html">cmd module</a>
 </li>
-<li>[cmd module in depth] (http://pymotw.com/2/cmd/)</li>
+<li>
+<a href="http://pymotw.com/2/cmd/">cmd module in depth</a></li>
 <li>packages concept page</li>
-<li>[uuid module](https://docs.python.org/3.8/library/uuid.html)</li>
-<li>[datetime](https://docs.python.org/3.8/library/datetime.html)</li>
-<li>[unittest module](https://docs.python.org/3.8/library/unittest.html#module-unittest)</li>
-<li>[args/kwargs](https://yasoob.me/2013/08/04/args-and-kwargs-in-python-explained/)</li>
+<li>
+<a href="https://docs.python.org/3.8/library/uuid.html">uuid module</a></li>
+<li>
+<a href="https://docs.python.org/3.8/library/datetime.html">datetime</a></li>
+<li>
+<a href="https://docs.python.org/3.8/library/unittest.html#module-unittest">unittest module></a></li
+<li><a href="https://yasoob.me/2013/08/04/args-and-kwargs-in-python-explained/"</a></li>
 <li>[Python test cheatsheet](https://www.pythonsheets.com/notes/python-tests.html)</li>
 <li>[cmd module wiki page](https://wiki.python.org/moin/CmdModule)</li>
 <li>[python unittest](https://realpython.com/python-testing/)</li>
