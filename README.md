@@ -89,7 +89,7 @@ At the end of this project, you are expected to be able to <a href="https://fs.b
 
 <h2>Execution</h2>
 The shell should work like this in interactive mode:
-<code>
+```
 $ ./console.py
 (hbnb) help
 
@@ -101,10 +101,11 @@ EOF  help  quit
 (hbnb) 
 (hbnb) quit
 $
-</code>
-<br>
+```
+
 But also in non-interactive mode like this:
-<code>$ echo "help" | ./console.py
+```
+$ echo "help" | ./console.py
 (hbnb)
 
 Documented commands (type help <topic>):
@@ -122,7 +123,8 @@ Documented commands (type help <topic>):
 ========================================
 EOF  help  quit
 (hbnb) 
-$</code>
+$
+```
 
 All tests should also pass in non-interactive mode: <code>$ echo "python3 -m unittest discover tests" | bash</code>
 
