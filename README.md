@@ -5,10 +5,9 @@ By: Guillaume
 ## Concepts
 
 For this project, we expect you to look at these concepts
-	* [Python packages] (https://intranet.alxswe.com/concepts/66)
-	* [AirBnB clone] (https://intranet.alxswe.com/concepts/74)
-![hbnb](<a href="https://ibb.co/zP5rmv1"><img src="https://i.ibb.co/L9P807M/hbnb.png" alt="hbnb" border="0"></a>)
-
+<ul><li><a href="https://intranet.alxswe.com/concepts/66">Python packages</a></li>
+<li><a href="https://intranet.alxswe.com/concepts/74">AirBnB</a></li>
+</ul>
 # Background Context
 ## Welcome to the AirBnB clone project!
 Before starting, please read the <strong>AirBnB</strong> concept page.
@@ -83,3 +82,6 @@ At the end of this project, you are expected to be able to <a href="https://fs.b
 <li>A documentation is not a simple word, it’s a real sentence explaining what’s the purpose of the module, class or method (the length of it will be verified)</li>
 </ul>
 ## Python Unit Tests
+
+
+#Tasks
