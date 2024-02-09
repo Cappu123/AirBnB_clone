@@ -44,32 +44,28 @@ class BaseModel:
                     self.__dict__[key] = str(value)
                 else:
                     self.__dict__[key] = value
+    def __str__(self):
+        """
+        Returns the string representation of the class
+        """
+        return "[{}] ({}) {}".format(self.__class__.__name__, self.id, self.__dict__)
 
+    def save(self):
+        """
+        Updates the public instance attribute <updated-at> with the current datetime
+        """
+        self.updated_at = datetime.today()
+        models.storage.save()
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    def to_dict(self):
+        """
+        A method returning all the key/value representation of __dict__instance
+        """
+        objects = {}
+        for key, value in self.__dict__.items():
+            if key == "created_at" or key == "updated_at":
+                objects[key] = value.isoformat()
+            else:
+                objects[key] = value
+        objects["__class__"] = self.__class__.__name__
+        return objects
