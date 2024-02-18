@@ -1,4 +1,4 @@
-.container {
+i.container {
 		max-width: 1000px;
 		margin: 30px auto;
 	}
@@ -8,11 +8,8 @@ section.filters {
 		width: 100%;
 		border: 1px solid #DDDDDD;
 		border-radius: 4px;
-		position: relative;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
 		align-items: center;
+		
 	}
 button {
 		font-size: 18px;
